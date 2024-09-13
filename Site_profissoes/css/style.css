@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho{
+    background-color: rgb(153, 4, 4);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linha{
+    background-color: rgb(235, 235, 235);
+    height: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    justify-content: center;
+    width: 100%;
+}
+
+.profissao{
+    width: 460px;
+}
+
+a{
+    color: rgb(17, 135, 214);
+    text-decoration: none;
+}
+
